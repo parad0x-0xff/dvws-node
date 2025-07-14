@@ -5,7 +5,6 @@ var guard = require('express-jwt-permissions')({
   permissionsProperty: 'permissions'
 })
 
-
 module.exports = (router) => {
   router.route('/v2/passphrase')
     .post(validateToken, controller.save);

@@ -13,3 +13,4 @@ module.exports = (router) => {
       router.route('/download')
       .post(validateToken, controller.fetch);
   };
+  

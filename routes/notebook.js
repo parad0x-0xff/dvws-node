@@ -34,5 +34,4 @@ module.exports = (router) => {
     router.route('/v2/notesearch/all')
     .get(validateToken, controller.display_all, guard.check(['user:write']));
 
-
 };
