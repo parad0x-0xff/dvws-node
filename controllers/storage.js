@@ -12,7 +12,6 @@ const options = {
     ignoreExpiration: true
   };
 
-
 module.exports = {
     post: (req, res) => {
 
